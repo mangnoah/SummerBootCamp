@@ -12,7 +12,19 @@ main .images img{
   margin-top: 100px;
 }
 
-main .images h1{
-  color: whitesmoke;
+.images li {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
   text-align: center;
+}
+
+.images li a {
+  color: whitesmoke;
+}
+
+.images li a :hover{
+  text-decoration: underline #8082ed;
+  color: #8082ed;
+  cursor: pointer;
 }
